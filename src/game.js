@@ -1,17 +1,9 @@
 import Phaser from "phaser";
-import Boundary from "./boundary";
-import Ray from "./ray";
 
 class MainScene {
   preload() {}
 
-  create() {
-    let wall = new Boundary(this, 600, 100, 600, 300);
-    wall.create();
-
-    let ray = new Ray(this, 100, 101);
-    ray.create();
-  }
+  create() {}
 
   update() {}
 }
