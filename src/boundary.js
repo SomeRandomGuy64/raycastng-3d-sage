@@ -13,7 +13,7 @@ class Boundary {
     const line = new Phaser.Geom.Line(this.x1, this.y1, this.x2, this.y2);
 
     const graphics = this.scene.add.graphics({
-      lineStyle: { width: 4, color: 0xaa00aa },
+      lineStyle: { width: 2, color: 0xffffff },
     });
 
     graphics.strokeLineShape(line);
